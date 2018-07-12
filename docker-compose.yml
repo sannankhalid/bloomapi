@@ -14,7 +14,7 @@ services:
       - db
       - search
   worker:
-    image: sannankhalid/bloom-datasources:latest
+    image: untoldone/bloom-datasources:latest
     links:
       - db
       - search
