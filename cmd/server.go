@@ -6,9 +6,9 @@ import (
 	"github.com/spf13/viper"
 	"github.com/gorilla/mux"
 
-	"github.com/untoldone/bloomapi/middleware"
-	"github.com/untoldone/bloomapi/handler"
-	"github.com/untoldone/bloomapi/handler_compat"
+	"github.com/sannankhalid/bloomapi/middleware"
+	"github.com/sannankhalid/bloomapi/handler"
+	"github.com/sannankhalid/bloomapi/handler_compat"
 )
 
 func Server() {

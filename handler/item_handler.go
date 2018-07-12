@@ -10,7 +10,7 @@ import (
 	"github.com/gorilla/context"
 	"log"
 
-	"github.com/untoldone/bloomapi/api"
+	"github.com/sannankhalid/bloomapi/api"
 )
 
 var validElasticSearchRegexp = regexp.MustCompile(`\A[a-zA-Z0-9\-\_\:\.]+\z`)

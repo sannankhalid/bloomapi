@@ -11,7 +11,7 @@ import (
 	"strings"
 	"github.com/gorilla/context"
 	"github.com/spf13/viper"
-	"github.com/untoldone/bloomapi/api"
+	"github.com/sannankhalid/bloomapi/api"
 	"github.com/satori/go.uuid"
 )
 

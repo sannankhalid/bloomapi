@@ -6,7 +6,7 @@ import (
 	"log"
 	"log/syslog"
 	"github.com/spf13/viper"
-	"github.com/untoldone/bloomapi/cmd"
+	"github.com/sannankhalid/bloomapi/cmd"
 	"github.com/getsentry/raven-go"
 )
 

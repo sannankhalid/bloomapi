@@ -4,7 +4,7 @@ import (
 	"os"
 	"fmt"
 	"github.com/spf13/viper"
-	"github.com/untoldone/bloomapi/tools/api_keys/cmd"
+	"github.com/sannankhalid/bloomapi/tools/api_keys/cmd"
 )
 
 func showUsage() {

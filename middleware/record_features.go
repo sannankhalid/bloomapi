@@ -3,7 +3,7 @@ package middleware
 import (
   "net/http"
   "encoding/json"
-  "github.com/untoldone/bloomapi/api"
+  "github.com/sannankhalid/bloomapi/api"
 )
 
 type RecordFeatures struct {}

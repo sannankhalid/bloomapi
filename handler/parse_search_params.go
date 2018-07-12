@@ -5,7 +5,7 @@ import (
 	"strings"
 	"strconv"
 
-	"github.com/untoldone/bloomapi/api"
+	"github.com/sannankhalid/bloomapi/api"
 )
 
 type SearchParams struct {

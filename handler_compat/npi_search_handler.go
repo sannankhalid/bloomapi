@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"log"
 
-	"github.com/untoldone/bloomapi/api"
-	"github.com/untoldone/bloomapi/handler"
+	"github.com/sannankhalid/bloomapi/api"
+	"github.com/sannankhalid/bloomapi/handler"
 )
 
 func NpiSearchHandler (w http.ResponseWriter, req *http.Request) {

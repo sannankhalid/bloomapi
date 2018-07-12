@@ -9,7 +9,7 @@ import (
 	"github.com/gorilla/context"
 	"github.com/mattbaird/elastigo/lib"
 
-	"github.com/untoldone/bloomapi/api"
+	"github.com/sannankhalid/bloomapi/api"
 )
 
 var esTypeExceptionRegex = regexp.MustCompile(`FormatException`)

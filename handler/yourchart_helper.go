@@ -2,7 +2,7 @@ package handler
 
 import (
 	"time"
-	"github.com/untoldone/bloomapi/api"
+	"github.com/sannankhalid/bloomapi/api"
 	"github.com/gocodo/bloomdb"
 )
 

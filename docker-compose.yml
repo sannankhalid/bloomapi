@@ -7,14 +7,14 @@ services:
   search:
     image: elasticsearch:2.4.6
   api:
-    image: untoldone/bloomapi:latest
+    image: sannankhalid/bloomapi:latest
     ports:
       - 3005:3005
     links:
       - db
       - search
   worker:
-    image: untoldone/bloom-datasources:latest
+    image: sannankhalid/bloom-datasources:latest
     links:
       - db
       - search

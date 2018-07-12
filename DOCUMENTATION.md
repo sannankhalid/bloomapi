@@ -274,13 +274,13 @@ Both the API service and the Data worker are written in Go and can be compiled u
 
 Once Go (1.3+) has been installed and configured with a GOPATH, and Godep has been installed, you can clone the repositories using
 
-`go get github.com/untoldone/bloomapi`
+`go get github.com/sannankhalid/bloomapi`
 
 `go get github.com/gocodo/bloomnpi`
 
 Once fetched, change into each of the bloomapi/ npi source directory roots and run godep restore.
 
-Run `go install github.com/untoldone/bloomapi github.com/gocodo/bloomnpi` to build the code into your $GOPATH/bin directory. If you are running on a mac, but want to cross-compile for a linux system, you can run make from the bloomapi/ npi source directories. If cross-compiling, the go binaries `gox and gonative` must also be installed and configured.
+Run `go install github.com/sannankhalid/bloomapi github.com/gocodo/bloomnpi` to build the code into your $GOPATH/bin directory. If you are running on a mac, but want to cross-compile for a linux system, you can run make from the bloomapi/ npi source directories. If cross-compiling, the go binaries `gox and gonative` must also be installed and configured.
 
 Once compiled, copy the bloomapi binary from $GOPATH/bin, and config.toml, bootstrap.sql, and drop.sql from the bloomapi source directory to an install directory of your choice. For the bloomnpi binary, copy the binary, config.toml, and the sql directory to a different install directory. Create a data directory in the destination for bloomnpi as well.
 

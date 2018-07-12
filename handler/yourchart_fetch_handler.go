@@ -10,7 +10,7 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/gorilla/context"
 	"github.com/spf13/viper"
-	"github.com/untoldone/bloomapi/api"
+	"github.com/sannankhalid/bloomapi/api"
 	raven "github.com/getsentry/raven-go"
 )
 

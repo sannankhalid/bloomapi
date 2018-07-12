@@ -6,7 +6,7 @@ import (
 	"database/sql"
 	"github.com/gorilla/context"
 
-	"github.com/untoldone/bloomapi/api"
+	"github.com/sannankhalid/bloomapi/api"
 )
 
 type Authentication struct {}

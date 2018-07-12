@@ -6,7 +6,7 @@ import (
 	"log"
 	"github.com/gorilla/context"
 
-	"github.com/untoldone/bloomapi/api"
+	"github.com/sannankhalid/bloomapi/api"
 )
 
 type dataSource struct {

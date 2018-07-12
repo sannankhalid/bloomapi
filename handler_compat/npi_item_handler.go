@@ -6,7 +6,7 @@ import (
 	"github.com/gorilla/mux"
 	"log"
 
-	"github.com/untoldone/bloomapi/api"
+	"github.com/sannankhalid/bloomapi/api"
 )
 
 func NpiItemHandler (w http.ResponseWriter, req *http.Request) {
