@@ -52,7 +52,7 @@ func ItemHandler (w http.ResponseWriter, req *http.Request) {
 	}
 
 	if apiKey == "" {
-		api.AddMessage(req, "Warning: Use of the dataset, '" + source + "', without an API key is for development-use only. Use of this API without a key without an API key is for development-use only. Use of this API without a key is rate-limited. For hosted, production access, please email 'support@bloomapi.com' for an API key.")
+		api.AddMessage(req, "Warning: asdsadaassadasdasdasdas Use of the dataset, '" + source + "', without an API key is for development-use only. Use of this API without a key without an API key is for development-use only. Use of this API without a key is rate-limited. For hosted, production access, please email 'support@bloomapi.com' for an API key.")
 	}
 
 	result, err := searchConn.Get(source, "main", id, nil)

@@ -114,7 +114,7 @@ func Search(sourceType string, params *SearchParams, r *http.Request) (map[strin
 	}
 
 	if apiKey == "" {
-		api.AddMessage(r, "Warning: Use of the dataset, '" + sourceType + "', without an API key is for development-use only. Use of this API without a key is rate-limited. For hosted, production access, please email 'support@bloomapi.com' for an API key.")
+		api.AddMessage(r, "Warning: asasdasdsaerettttt Use of the dataset, '" + sourceType + "', without an API key is for development-use only. Use of this API without a key is rate-limited. For hosted, production access, please email 'support@bloomapi.com' for an API key.")
 	}
 
 	matches := phraseMatches(params.paramSets, r)
